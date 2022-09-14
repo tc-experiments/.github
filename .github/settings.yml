@@ -59,11 +59,11 @@ repository:
 
 # Labels: define labels for Issues and Pull Requests
 labels:
-  - name: bug
+  - name: type/bug
     color: CC0000
     description: An issue with the system 🐛.
 
-  - name: feature
+  - name: type/feature
     # If including a `#`, make sure to wrap it with quotes!
     color: '#336699'
     description: New functionality.
