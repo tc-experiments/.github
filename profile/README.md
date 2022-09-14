@@ -1,3 +1,3 @@
 # Testcontainers organization
 
-Welcome to the Tescontainers' Github organization!
+Welcome to the Testcontainers' Github organization!
