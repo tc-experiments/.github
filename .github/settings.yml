@@ -7,13 +7,13 @@ repository:
   name: .github
 
   # A short description of the repository that will show up on GitHub
-  description: description of repo
+  description: Base repository
 
   # A URL with more information about the repository
   homepage: https://www.testcontainers.org
 
   # A comma-separated list of topics to set on the repository
-  topics: OSS Governance, settings
+  topics: OSS Governance,settings
 
   # Either `true` to make the repository private, or `false` to make it public.
   private: false
