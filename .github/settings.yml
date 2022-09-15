@@ -85,7 +85,7 @@ collaborators:
   - username: eddumelendez
     permission: admin
   - username: kiview
-    permission: admin
+    permission: triage
   - username: mdelapenya
     permission: admin
 
