@@ -108,7 +108,7 @@ teams:
     # * `triage` - Recommended for contributors who need to proactively manage issues and pull requests without write access.
     permission: admin
   - name: go-team
-    permission: push
+    permission: triage
   - name: java-team
     permission: push
 
