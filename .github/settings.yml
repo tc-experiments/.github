@@ -64,6 +64,10 @@ labels:
     color: '#CC0000'
     description: An issue with the system.
 
+  - name: type/docs
+    color: '#2B20B5'
+    description: Docs, docs, docs.
+
   - name: type/feature
     color: '#336699'
     description: New functionality.
