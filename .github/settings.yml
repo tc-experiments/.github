@@ -68,9 +68,9 @@ labels:
     color: '#336699'
     description: New functionality.
 
-  - name: Help Wanted
-    # Provide a new name to rename an existing label
-    new_name: first-timers-only
+  - name: low-hanging-fruit
+    color: '#FFC300'
+    description: Issues that are good for newcomers.
 
   - name: hacktoberfest-accepted
     color: '#ff0000'
