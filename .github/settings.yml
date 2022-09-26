@@ -29,7 +29,7 @@ repository:
   has_wiki: true
 
   # Either `true` to enable downloads for this repository, `false` to disable them.
-  has_downloads: true
+  has_downloads: false
 
   # Updates the default branch for this repository.
   default_branch: main
