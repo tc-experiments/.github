@@ -107,6 +107,8 @@ collaborators:
 
 # See https://docs.github.com/en/rest/reference/teams#add-or-update-team-repository-permissions for available options
 teams:
+  # Please make sure the team already exist in the organization, as the repository-settings application is not creating them.
+  # See https://github.com/repository-settings/app/discussions/639 for more information about teams and settings
   - name: core-team
     # The permission to grant the team. Can be one of:
     # * `pull` - can pull, but not push to or administer this repository.
