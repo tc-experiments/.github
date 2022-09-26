@@ -76,6 +76,10 @@ labels:
     color: '#ff0000'
     description: Pull Requests accepted for Hacktoberfest.
 
+  - name: invalid
+    color: '#C3C3C3'
+    description: Not accepted or invalid for any reason.
+
 # Milestones: define milestones for Issues and Pull Requests
 milestones:
   - title: milestone-title
