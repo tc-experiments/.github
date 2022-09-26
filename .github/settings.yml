@@ -72,6 +72,10 @@ labels:
     # Provide a new name to rename an existing label
     new_name: first-timers-only
 
+  - name: hacktoberfest-accepted
+    color: '#ff0000'
+    description: Pull Requests accepted for Hacktoberfest.
+
 # Milestones: define milestones for Issues and Pull Requests
 milestones:
   - title: milestone-title
