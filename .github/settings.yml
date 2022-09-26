@@ -153,4 +153,4 @@ branches:
       restrictions:
         apps: []
         users: []
-        teams: [go-team]
+        teams: []
