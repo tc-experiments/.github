@@ -58,13 +58,13 @@ repository:
   enable_vulnerability_alerts: false
 
 # Labels: define labels for Issues and Pull Requests
+# If including a `#`, make sure to wrap it with quotes!
 labels:
   - name: type/bug
     color: '#CC0000'
     description: An issue with the system.
 
   - name: type/feature
-    # If including a `#`, make sure to wrap it with quotes!
     color: '#336699'
     description: New functionality.
 
