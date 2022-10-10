@@ -52,6 +52,10 @@ repository:
 # Labels: define labels for Issues and Pull Requests
 # If including a `#`, make sure to wrap it with quotes!
 labels:
+  - name: type/breaking-change
+    color: '#581845'
+    description: Causing compatibility issues.
+
   - name: type/bug
     color: '#CC0000'
     description: An issue with the system.
