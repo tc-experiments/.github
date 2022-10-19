@@ -106,6 +106,10 @@ labels:
     description: Docs, docs, docs.
     new_name: docs
 
+  - name: type/feature
+    color: '#11c134'
+    description: New functionality or new behaviors on the existing one
+
   - name: type/housekeeping
     color: '#c87eea'
     description: Changes that do not impact the existing functionality
