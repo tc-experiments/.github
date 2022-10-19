@@ -7,7 +7,7 @@ repository:
   name: .github
 
   # A short description of the repository that will show up on GitHub
-  description: Base repository
+  description: Base repository for TC experiments
 
   # A URL with more information about the repository
   homepage: https://www.testcontainers.org
