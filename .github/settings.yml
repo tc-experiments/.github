@@ -123,6 +123,8 @@ labels:
   - name: type/test-flakiness
     color: '#602A4F'
     description: Report a flaky test that happens on the CI
+    # Provide a new name to rename an existing label
+    new_name: test flakiness
   
   - name: wontfix
     color: '#ffffff'
