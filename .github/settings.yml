@@ -52,33 +52,81 @@ repository:
 # Labels: define labels for Issues and Pull Requests
 # If including a `#`, make sure to wrap it with quotes!
 labels:
-  - name: type/breaking-change
-    color: '#581845'
-    description: Causing compatibility issues.
+  - name: bug
+    color: '#ff0000'
+    description: An issue with the library
 
-  - name: type/bug
-    color: '#CC0000'
-    description: An issue with the system.
+  - name: compose
+    color: '#0888DA'
+    description: Docker Compose.
 
-  - name: type/docs
-    color: '#2B20B5'
-    description: Docs, docs, docs.
+  - name: dependencies
+    color: '#0c19d1'
+    description: Dependencies or external services
 
-  - name: type/feature
-    color: '#336699'
-    description: New functionality.
+  - name: duplicate
+    color: '#cfd3d7'
+    description: This issue or pull request already exists
+
+  - name: enhancement
+    color: '#a2eeef'
+    description: New feature or request
+  
+  - name: good-first-issue
+    color: '#FEF2C0'
+    description: Want to contribute to testcontainers? Start from here
+
+  - name: hacktoberfest
+    color: '#fbca04'
+    description: Pull Requests accepted for Hacktoberfest.
+
+  - name: help wanted
+    color: '#008672'
+    description: Extra attention is needed
+
+  - name: invalid
+    color: '#e4e669'
+    description: Not accepted or invalid for any reason.
 
   - name: low-hanging-fruit
     color: '#FFC300'
     description: Issues that are good for newcomers.
+ 
+  - name: podman
+    color: '#B52710'
+    description: Issues regarding podman.
 
-  - name: hacktoberfest-accepted
-    color: '#ff0000'
-    description: Pull Requests accepted for Hacktoberfest.
+  - name: type/bc-break
+    color: '#c91873'
+    description: Causing compatibility issues.
 
-  - name: invalid
-    color: '#C3C3C3'
-    description: Not accepted or invalid for any reason.
+  - name: type/docs
+    color: '#ede889'
+    description: Docs, docs, docs.
+
+  - name: type/feature
+    color: '#11c134'
+    description: New functionality or new behaviors on the existing one
+
+  - name: type/housekeeping
+    color: '#c87eea'
+    description: Changes that do not impact the existing functionality
+  
+  - name: type/question
+    color: '#8ba7f4'
+    description: Have you tried our Slack (https://testcontainers.slack.com)?
+  
+  - name: type/security
+    color: '#D93F0B'
+    description: Vulnerabilities in dependencies or in the library itself
+  
+  - name: type/test-flakiness
+    color: '#602A4F'
+    description: Report a flaky test that happens on the CI
+  
+  - name: wontfix
+    color: '#ffffff'
+    description: This will not be worked on
 
 # Collaborators: give specific users access to this repository.
 # See https://docs.github.com/en/rest/reference/repos#add-a-repository-collaborator for available options
