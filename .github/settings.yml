@@ -87,10 +87,6 @@ labels:
   - name: invalid
     color: '#e4e669'
     description: Not accepted or invalid for any reason.
-
-  - name: low-hanging-fruit
-    color: '#FFC300'
-    description: Issues that are good for newcomers.
  
   - name: podman
     color: '#B52710'
