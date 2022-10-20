@@ -75,6 +75,7 @@ labels:
   - name: good-first-issue
     color: '#FEF2C0'
     description: Want to contribute to testcontainers? Start from here
+    new_name: good first issue
 
   - name: hacktoberfest
     color: '#fbca04'
@@ -95,30 +96,37 @@ labels:
   - name: type/bc-break
     color: '#c91873'
     description: Causing compatibility issues.
+    new_name: breaking change
 
   - name: type/docs
     color: '#ede889'
     description: Docs, docs, docs.
+    new_name: documentation
 
   - name: type/feature
     color: '#11c134'
     description: New functionality or new behaviors on the existing one
+    new_name: feature
 
   - name: type/housekeeping
     color: '#c87eea'
     description: Changes that do not impact the existing functionality
-  
+    new_name: chore
+
   - name: type/question
     color: '#8ba7f4'
     description: Have you tried our Slack (https://testcontainers.slack.com)?
+    new_name: question
   
   - name: type/security
     color: '#D93F0B'
     description: Vulnerabilities in dependencies or in the library itself
+    new_name: secutiry
   
   - name: type/test-flakiness
     color: '#602A4F'
     description: Report a flaky test that happens on the CI
+    new_name: test flakiness
   
   - name: wontfix
     color: '#ffffff'
