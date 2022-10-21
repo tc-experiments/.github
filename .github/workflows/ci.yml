@@ -8,7 +8,7 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       - name: print platform
-        run: code "Code is OK"
+        run: echo "Code is OK"
   test:
     strategy:
       matrix:
