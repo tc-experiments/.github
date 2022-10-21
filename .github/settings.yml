@@ -130,7 +130,7 @@ collaborators:
   - username: eddumelendez
     permission: admin
   - username: kiview
-    permission: triage
+    permission: admin
   - username: mdelapenya
     permission: admin
 
